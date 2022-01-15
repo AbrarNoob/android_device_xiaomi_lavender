@@ -14,7 +14,7 @@ $(call inherit-product, vendor/banana/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-BANANA_BUILDTYPE := FanEdition
+
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
